@@ -1966,13 +1966,16 @@ input, select, textarea {
 }
 
 .data-card p {
-	opacity: 0;
-	color: #ffffff;
+	color: #111;
 	font-weight: 600;
 	line-height: 1.8;
 	margin: 0 0 1.25em;
-	transform: translateY(-1em);
+	transform: translateY(-0.5em);
 	transition: opacity 0.45s ease, transform 0.5s ease;
+}
+
+.data-card:hover p {
+	color: #ffffff;
 }
 
 .data-card .link-text {
