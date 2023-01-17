@@ -888,10 +888,6 @@ input, select, textarea {
 			font-weight: 900;
 		}
 
-		.icon.fa-twitter {
-			color: #1DA1F2;
-		}
-
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
