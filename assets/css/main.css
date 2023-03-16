@@ -1950,7 +1950,7 @@ input, select, textarea {
 	line-height: 1;
 	padding-bottom: 0.5em;
 	margin: 0 0 0.142857143em;
-	border-bottom: 2px solid #753bbd;
+	border-bottom: 2px solid #023450;
 	transition: color 0.45s ease, border 0.45s ease;
 }
 
@@ -1980,7 +1980,7 @@ input, select, textarea {
 
 .data-card .link-text {
 	display: block;
-	color: #753bbd;
+	color: #023450;
 	font-size: 1.125em;
 	font-weight: 600;
 	line-height: 1.2;
@@ -1998,13 +1998,13 @@ input, select, textarea {
 }
 
 .data-card:hover {
-	background: #753bbd;
+	background: #023450;
 	transform: scale(1.02);
 }
 
 .data-card:hover h3 {
 	color: #ffffff;
-	border-bottom-color: #a754c4;
+	border-bottom-color: #0b1834;
 }
 
 .data-card:hover h4 {
