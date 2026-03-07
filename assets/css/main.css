@@ -42,30 +42,6 @@ body{
 .team{
     flex-grow: 1;
 }
-.team-link{
-    display: inline-block;
-    color: inherit;
-    text-decoration: none;
-    border-bottom: none !important;
-}
-.team-link img{
-    display: block;
-    width: 212.5px;
-    max-width: 100%;
-    height: auto;
-}
-.team-link:hover,
-.team-link:active{
-    border-bottom: none !important;
-}
-.team-link:focus-visible{
-    outline: 2px solid #111;
-    outline-offset: 4px;
-}
-.name .icon{
-    margin-left: 0.35em;
-    font-size: 0.9em;
-}
 .team:nth-child(odd) {
 	padding-right: 0%;
 }
@@ -120,9 +96,8 @@ img{
     font-size: 12px;
     line-height: 16px;
     text-transform: uppercase;
-    display: block;
-    margin-top: 0.6rem;
-    writing-mode: horizontal-tb;
+    vertical-align: top;
+    writing-mode: vertical-rl;
 }
 
 .footer-text{
